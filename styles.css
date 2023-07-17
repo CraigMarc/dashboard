@@ -115,3 +115,8 @@ background-color: brown;
   .projects .card {
     height: 200px;
   }
+
+  .trending-img {
+    height: 35px;
+    width: 35px;
+  }
