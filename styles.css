@@ -86,13 +86,19 @@ background-color: brown;
   .main {
     grid-column: 2 / 3;
    grid-row: 2 / 3;
-   display: flex;
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   grid-template-rows: 1fr 1fr;
   }
 
   .announcements {
-
+    background-color: antiquewhite;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
   }
 
-  .trends {
-
+  .trending {
+    background-color: blueviolet;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
   }
