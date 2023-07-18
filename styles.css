@@ -176,6 +176,8 @@ padding-right: 20px;
   background-color: white;
   padding: 10px;
   border-radius: 5px;
+  border-left: solid 5px;
+  border-left-color: #fc9803;
 }
 
 .title {
